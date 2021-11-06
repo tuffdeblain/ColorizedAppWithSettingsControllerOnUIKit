@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		C5418BC1269896D50050F285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5418BC0269896D50050F285 /* AppDelegate.swift */; };
 		C5418BC3269896D50050F285 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5418BC2269896D50050F285 /* SceneDelegate.swift */; };
-		C5418BC5269896D50050F285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5418BC4269896D50050F285 /* ViewController.swift */; };
+		C5418BC5269896D50050F285 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5418BC4269896D50050F285 /* SettingsViewController.swift */; };
 		C5418BC8269896D50050F285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5418BC6269896D50050F285 /* Main.storyboard */; };
 		C5418BCA269896D60050F285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5418BC9269896D60050F285 /* Assets.xcassets */; };
 		C5418BCD269896D60050F285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5418BCB269896D60050F285 /* LaunchScreen.storyboard */; };
+		C5DBADB72736E5D100D5B7E1 /* extensionMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DBADB62736E5D100D5B7E1 /* extensionMainViewController.swift */; };
+		C5DBADB92736E62700D5B7E1 /* extensionSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DBADB82736E62700D5B7E1 /* extensionSettingsViewController.swift */; };
+		C5ED73182736C77300DFDA44 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ED73172736C77300DFDA44 /* MainViewController.swift */; };
+		C5ED731A2736C8B400DFDA44 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ED73192736C8B400DFDA44 /* ColorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C5418BBD269896D50050F285 /* KudinovSA_HW2.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KudinovSA_HW2.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5418BBD269896D50050F285 /* ColorizedAppWithSettingsControllerOnUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorizedAppWithSettingsControllerOnUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5418BC0269896D50050F285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5418BC2269896D50050F285 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C5418BC4269896D50050F285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5418BC4269896D50050F285 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C5418BC7269896D50050F285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5418BC9269896D60050F285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5418BCC269896D60050F285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5418BCE269896D60050F285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DBADB62736E5D100D5B7E1 /* extensionMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionMainViewController.swift; sourceTree = "<group>"; };
+		C5DBADB82736E62700D5B7E1 /* extensionSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionSettingsViewController.swift; sourceTree = "<group>"; };
+		C5ED73172736C77300DFDA44 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C5ED73192736C8B400DFDA44 /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +56,7 @@
 		C5418BBE269896D50050F285 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5418BBD269896D50050F285 /* KudinovSA_HW2.2.app */,
+				C5418BBD269896D50050F285 /* ColorizedAppWithSettingsControllerOnUIKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,23 +64,75 @@
 		C5418BBF269896D50050F285 /* KudinovSA_HW2.2 */ = {
 			isa = PBXGroup;
 			children = (
-				C5418BC0269896D50050F285 /* AppDelegate.swift */,
-				C5418BC2269896D50050F285 /* SceneDelegate.swift */,
-				C5418BC4269896D50050F285 /* ViewController.swift */,
-				C5418BC6269896D50050F285 /* Main.storyboard */,
-				C5418BC9269896D60050F285 /* Assets.xcassets */,
-				C5418BCB269896D60050F285 /* LaunchScreen.storyboard */,
-				C5418BCE269896D60050F285 /* Info.plist */,
+				C5ED73132736C53F00DFDA44 /* ViewControllers */,
+				C5ED73142736C54C00DFDA44 /* StoryBoards */,
+				C5ED73152736C55700DFDA44 /* Resources */,
+				C5DBADBB2736E66400D5B7E1 /* Model */,
+				C5ED73162736C56500DFDA44 /* SupportingFiles */,
+				C5DBADBA2736E65000D5B7E1 /* Extensions */,
 			);
 			path = KudinovSA_HW2.2;
+			sourceTree = "<group>";
+		};
+		C5DBADBA2736E65000D5B7E1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C5DBADB62736E5D100D5B7E1 /* extensionMainViewController.swift */,
+				C5DBADB82736E62700D5B7E1 /* extensionSettingsViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C5DBADBB2736E66400D5B7E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5ED73192736C8B400DFDA44 /* ColorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C5ED73132736C53F00DFDA44 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5418BC4269896D50050F285 /* SettingsViewController.swift */,
+				C5ED73172736C77300DFDA44 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C5ED73142736C54C00DFDA44 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				C5418BC6269896D50050F285 /* Main.storyboard */,
+				C5418BCB269896D60050F285 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		C5ED73152736C55700DFDA44 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5418BC9269896D60050F285 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C5ED73162736C56500DFDA44 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C5418BC0269896D50050F285 /* AppDelegate.swift */,
+				C5418BC2269896D50050F285 /* SceneDelegate.swift */,
+				C5418BCE269896D60050F285 /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C5418BBC269896D50050F285 /* KudinovSA_HW2.2 */ = {
+		C5418BBC269896D50050F285 /* ColorizedAppWithSettingsControllerOnUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5418BD1269896D60050F285 /* Build configuration list for PBXNativeTarget "KudinovSA_HW2.2" */;
+			buildConfigurationList = C5418BD1269896D60050F285 /* Build configuration list for PBXNativeTarget "ColorizedAppWithSettingsControllerOnUIKit" */;
 			buildPhases = (
 				C5418BB9269896D50050F285 /* Sources */,
 				C5418BBA269896D50050F285 /* Frameworks */,
@@ -82,9 +142,9 @@
 			);
 			dependencies = (
 			);
-			name = KudinovSA_HW2.2;
+			name = ColorizedAppWithSettingsControllerOnUIKit;
 			productName = KudinovSA_HW2.2;
-			productReference = C5418BBD269896D50050F285 /* KudinovSA_HW2.2.app */;
+			productReference = C5418BBD269896D50050F285 /* ColorizedAppWithSettingsControllerOnUIKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +161,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C5418BB8269896D50050F285 /* Build configuration list for PBXProject "KudinovSA_HW2.2" */;
+			buildConfigurationList = C5418BB8269896D50050F285 /* Build configuration list for PBXProject "ColorizedAppWithSettingsControllerOnUIKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +174,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5418BBC269896D50050F285 /* KudinovSA_HW2.2 */,
+				C5418BBC269896D50050F285 /* ColorizedAppWithSettingsControllerOnUIKit */,
 			);
 		};
 /* End PBXProject section */
@@ -137,9 +197,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5418BC5269896D50050F285 /* ViewController.swift in Sources */,
+				C5418BC5269896D50050F285 /* SettingsViewController.swift in Sources */,
 				C5418BC1269896D50050F285 /* AppDelegate.swift in Sources */,
+				C5ED731A2736C8B400DFDA44 /* ColorModel.swift in Sources */,
+				C5DBADB92736E62700D5B7E1 /* extensionSettingsViewController.swift in Sources */,
+				C5DBADB72736E5D100D5B7E1 /* extensionMainViewController.swift in Sources */,
 				C5418BC3269896D50050F285 /* SceneDelegate.swift in Sources */,
+				C5ED73182736C77300DFDA44 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +352,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 754D6797UK;
-				INFOPLIST_FILE = KudinovSA_HW2.2/Info.plist;
+				INFOPLIST_FILE = KudinovSA_HW2.2/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +371,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 754D6797UK;
-				INFOPLIST_FILE = KudinovSA_HW2.2/Info.plist;
+				INFOPLIST_FILE = KudinovSA_HW2.2/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +386,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C5418BB8269896D50050F285 /* Build configuration list for PBXProject "KudinovSA_HW2.2" */ = {
+		C5418BB8269896D50050F285 /* Build configuration list for PBXProject "ColorizedAppWithSettingsControllerOnUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5418BCF269896D60050F285 /* Debug */,
@@ -331,7 +395,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5418BD1269896D60050F285 /* Build configuration list for PBXNativeTarget "KudinovSA_HW2.2" */ = {
+		C5418BD1269896D60050F285 /* Build configuration list for PBXNativeTarget "ColorizedAppWithSettingsControllerOnUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5418BD2269896D60050F285 /* Debug */,
